@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple">
+
+    <TextView
+        android:id="@+id/finheald"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="FinHeal"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#D3434141"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/menu"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_menu" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="349dp"
+        android:layout_height="598dp"
+        app:srcCompat="@drawable/fondomenu"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="82dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tex_cuentas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cuentas"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="331dp" />
+
+    <TextView
+        android:id="@+id/tex_config"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Configuración"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="491dp" />
+
+    <TextView
+        android:id="@+id/tex_grafica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Graficas"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="57dp"
+        android:layout_height="63dp"
+        app:srcCompat="@drawable/user"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="105dp" />
+
+
+    <TextView
+        android:id="@+id/tex_nick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nickname"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+    <ImageView
+        android:id="@+id/img_home"
+        android:layout_width="59dp"
+        android:layout_height="64dp"
+        app:srcCompat="@drawable/home"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="247dp" />
+
+    <TextView
+        android:id="@+id/tex_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="247dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="57dp"
+        android:layout_height="73dp"
+        app:srcCompat="@drawable/config"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="480dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/img_cuenta"
+        android:layout_width="59dp"
+        android:layout_height="66dp"
+        app:srcCompat="@drawable/cuentas"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="319dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/img_grafica"
+        android:layout_width="57dp"
+        android:layout_height="69dp"
+        app:srcCompat="@drawable/grafi"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="395dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -34,7 +34,7 @@
         android:fontFamily="sans-serif-black"
         android:text="Sign UP"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:textColor="#C30E0E"
+        android:textColor="@color/black"
         android:textSize="20sp"
         app:backgroundTint="#1DFBFBFB"
         app:iconTint="#3CFFFFFF"

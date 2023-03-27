@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/verde">
+
+    <TextView
+        android:id="@+id/finheald"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="FinHeal"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#D3434141"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/menu"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_menu" />
+
+    <ImageButton
+        android:id="@+id/ing"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="116dp"
+        android:background="#00EA0E0E"
+        android:scaleType="fitXY"
+        android:src="@drawable/ingresos"
+        android:tint="#52E11F"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ing2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Saldo de ingresos"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#D3434141"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="78dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$0.00"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="120dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/TextIngresos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VALOR DE INGRESOS"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="501dp" />
+
+    <EditText
+        android:id="@+id/Ing2"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:hint="$$$"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextIngresos"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/TextFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FECHA"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="601dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/Fecha2"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:hint="DD/MM/AA"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextFecha"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Regalo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGALO"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="246dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="47dp"
+        android:layout_height="55dp"
+        app:srcCompat="@drawable/ahorro"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="310dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="54dp"
+        android:layout_height="46dp"
+        app:srcCompat="@drawable/reg"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <TextView
+        android:id="@+id/ahorro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AHORRO"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="325dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/Sueldo"
+        android:layout_width="51dp"
+        android:layout_height="55dp"
+        app:srcCompat="@drawable/sueldo"
+        tools:layout_editor_absoluteX="229dp"
+        tools:layout_editor_absoluteY="228dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/salario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SALARIO"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="291dp"
+        tools:layout_editor_absoluteY="246dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Text_otros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OTROS"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="291dp"
+        tools:layout_editor_absoluteY="325dp" />
+
+    <ImageView
+        android:id="@+id/Img_otros"
+        android:layout_width="41dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/otros"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="298dp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
